@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, intial-sacle=1.0">
+		<title>Decrypt Message</title>
+		<link rel="stylesheet" href="decrypt.css">
+		<!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <script type="text/javascript" src="/app.js"></script>
+ <script>
+ $.ajax({
+	url: "/decryptmail",
+	data: { value: $('.decrypt-textarea').val() },
+	method: "POST",
+	success: (data) => {
+		console.log(data)
+		// outputs "SUCESSSSS"
+	}
+});
+</script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	</head>
+	<body>
+		<br>
+			<a class="backtohome" href="home.html"><i class="small material-icons">home</i></a> 
+			<br><br><br>
+            <a class="exit_logout" href="login.html"><i class="small material-icons">exit_to_app</i></a>
+            <br><br><br>
+            <a class="resetall" href="#" ><i class="small material-icons">delete</i></a>
+		<div class="loginBox1">
+            <img src="images/mail.png" class="mail"> 
+			<h2>MAILER SERVICE</h2>
+			<form method="POST" action="decryptmail" id="decrypt-form">
+                <!-- <p>From</p>
+				<input type="email" name="emailfrom" id="emailfrom" maxlength="40" placeholder="Enter From Address...(Eg. zzzzzzz@yyy.com)" required>
+                <br>
+                <p>To</p>
+				<input type="email" name="emailto" id="emailto" maxlength="60" multiple="multiple" placeholder="Enter To Address...(Eg. zzzzzzz@yyy.com)" required>
+                <br><br>
+                <p>Subject</p>
+				<input type="text" name="subject" id="subject" placeholder="Type the Subject" required> -->
+                <br><br>
+                <p>Message/Text</p>
+                <input type="text" value="" class="materialize-textarea" id="message" name="message" placeholder="Please Paste the Encrypted message Here!!" rows="40" cols="40">
+                <br><br>
+                <p>Decrypted Message</p>
+                <input type="text"  placeholder="Your decrypted text will appear here" class="decrypt-textarea" id="decryptmsg" rows="40" cols="40">
+				<br><br>
+				<input type="submit" value="Decrypt" id="sendmail" class="sendmail">
+                <!-- <p>Number of Emails</p> -->
+                <!-- <input id="noofmail"  name="noofmail" class="noofmail" type="number" max="50" min="1" value="1"> -->
+				<!-- <input id="encryptbutton" type="button" value="Encrypt" class="encryptbutton" onclick="encryptfunction"> -->
+				<!-- <input id="sendmail" type="submit" value="SEND" class="sendmail"> --> -->
+            </form>
+		</div>
+	</body>
+</html>
