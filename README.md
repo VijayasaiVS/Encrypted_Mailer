@@ -35,7 +35,15 @@
 _______________________________________________________________
 *Thanks to https://github.com/santhosh-d for his contribution on Client Side Decryption Work!!*
 
-9) Open the "Client Side" folder in receiver's side computer.
-10) Do the step 2,3,4(here open Client Side folder instead),5.
-11) And run it after the mail is sent from the sender's side, it will create a folder of decrypted message and go inside of it to access the decrypted message.
-12) Do the 11th step for next iterations.
+**Client Side**
+
+1. Open the "Client Side" folder in receiver's side computer.
+2. Do the step 2,3,4(here open Client Side folder instead),5.
+3. After Successful installation of the modules there are some steps to be done,
+   - Go to https://developers.google.com/gmail/api/quickstart/nodejs
+   - Enable Gmail API for the account to be used in Client side
+   - Download 'credentials.json' file (Every account has different configuration file)
+   - Your good to go with credentials.json file.
+   - After installing required packages type 'node index' in terminal
+   - When you run the program for the first time, a link will appear in the terminal! Open it and login to the account from which you want to read the Encrypted mail
+   - After successful login you will be given a token to access the account via this program. Paste that in the terminal and your all set to go. Lets encrypt some Mails.
