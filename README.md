@@ -33,6 +33,7 @@
 7) Type npm start/npm server start to start the application.
 8) Visit http://localhost:portno/email.html
 _______________________________________________________________
+*Thanks to https://github.com/santhosh-d for his contribution on Client Side Decryption Work!!*
 
 9) Open the "Client Side" folder in receiver's side computer.
 10) Do the step 2,3,4(here open Client Side folder instead),5.
