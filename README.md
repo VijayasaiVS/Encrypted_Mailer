@@ -30,7 +30,6 @@
 	wait for the packages from the "package.json to install automatically
 6) Enter your own email id and password in *.env* file to access the email sending API
 7) Type npm start/npm server start to start the application.
-
 **8) Visit http://localhost:portno/email.html**
 _______________________________________________________________
 
