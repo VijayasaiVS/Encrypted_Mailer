@@ -32,10 +32,9 @@
 	
 		firstname		-		varchar(50)
 		lastname		-		varchar(50)
-		username		-		varchar(50) [PRIMARY KEY]
+		username		-		varchar(50) 	[PRIMARY KEY]
 		email			-		varchar(50)	[PRIMARY KEY]
 		password		-		varchar(50)
-		
 		
 
 **How to Run:**
