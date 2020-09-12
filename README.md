@@ -31,7 +31,7 @@
 6) Enter your own email id and password in *.env* file to access the email sending API
 	*-Go to https://myaccount.google.com/security if mail cant be sent from your account and Turn On "Less Secure App Access"*
 7) Type npm start/npm server start to start the application.
-8) Visit http://localhost:portno/email.html
+8) Visit http://localhost:9000/email.html
 _______________________________________________________________
 *Thanks to https://github.com/santhosh-d for his contribution on Client Side Decryption Work!!*
 
