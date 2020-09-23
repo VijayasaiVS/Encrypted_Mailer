@@ -1,5 +1,5 @@
 **Encrypted Mailing Service:**
-			A Web Based Application to send upto 50 mails to multiple users at a same time.
+			A Web Based Application to send encrypted mails to any mail id.
 			
 			
 ***Note:***
