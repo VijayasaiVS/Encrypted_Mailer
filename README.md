@@ -1,16 +1,6 @@
 **Encrypted Mailing Service:**
 			A Web Based Application to send encrypted mails to any mail id.
-			
-			
-***Note:***
 
-		———————————————————————————————————————————————————————————————————————
-		
-	 ***!!!This application is build by me for basic understanding of HTML,CSS,JS!!!***
-	 
-	 ***!!!This application doesn't have a huge functionality(/userful one) but only for fun!!!***
-	 
-		———————————————————————————————————————————————————————————————————————
 	 
 	 
 **Technology Used:**
